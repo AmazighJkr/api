@@ -4,9 +4,8 @@ pymysql.install_as_MySQLdb()
 from flask import Flask, request
 from flask_cors import CORS
 from flask_sock import Sock  # Native WebSocket for Flask
-import 
+import json
 import os
-
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
